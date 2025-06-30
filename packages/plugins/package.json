@@ -1,0 +1,29 @@
+{
+  "name": "@maimai/plugins",
+  "version": "0.1.0",
+  "description": "Maimai framework plugin system",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "type-check": "tsc --noEmit"
+  },
+  "keywords": [
+    "plugins",
+    "extensions",
+    "middleware"
+  ],
+  "author": "maimai",
+  "license": "MIT",
+  "dependencies": {
+    "@maimai/core": "workspace:*",
+    "@maimai/types": "workspace:*",
+    "@maimai/utils": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "tsup": "^8.0.0"
+  }
+}

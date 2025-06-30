@@ -1,0 +1,23 @@
+{
+  "name": "basic-app-example",
+  "version": "0.1.0",
+  "description": "Basic Maimai application example",
+  "private": true,
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsup",
+    "start": "node dist/index.js",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@maimai/core": "workspace:*",
+    "@maimai/server": "workspace:*",
+    "@maimai/decorators": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "tsx": "^4.0.0",
+    "tsup": "^8.0.0",
+    "@types/node": "^20.0.0"
+  }
+}

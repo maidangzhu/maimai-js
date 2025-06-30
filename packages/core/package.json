@@ -1,0 +1,32 @@
+{
+  "name": "@maimai/core",
+  "version": "0.1.0",
+  "description": "Maimai framework core SDK",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "type-check": "tsc --noEmit"
+  },
+  "keywords": [
+    "serverless",
+    "framework",
+    "nodejs",
+    "fullstack"
+  ],
+  "author": "maimai",
+  "license": "MIT",
+  "dependencies": {
+    "@maimai/types": "workspace:*",
+    "@maimai/utils": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "tsup": "^8.0.0"
+  },
+  "peerDependencies": {
+    "typescript": ">=4.5.0"
+  }
+}

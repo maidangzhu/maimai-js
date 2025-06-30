@@ -1,0 +1,29 @@
+{
+  "name": "@maimai/utils",
+  "version": "0.1.0",
+  "description": "Maimai framework utility functions",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "type-check": "tsc --noEmit",
+    "test": "vitest"
+  },
+  "keywords": [
+    "utils",
+    "utilities",
+    "helpers"
+  ],
+  "author": "maimai",
+  "license": "MIT",
+  "dependencies": {
+    "@maimai/types": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "tsup": "^8.0.0",
+    "vitest": "^1.0.0"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "@maimai/client",
+  "version": "0.1.0",
+  "description": "Maimai framework client SDK",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "type-check": "tsc --noEmit"
+  },
+  "keywords": [
+    "client",
+    "sdk",
+    "frontend",
+    "api"
+  ],
+  "author": "maimai",
+  "license": "MIT",
+  "dependencies": {
+    "@maimai/core": "workspace:*",
+    "@maimai/types": "workspace:*",
+    "@maimai/utils": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "tsup": "^8.0.0"
+  }
+}
