@@ -11,8 +11,7 @@
   },
   "dependencies": {
     "@maimai/core": "workspace:*",
-    "@maimai/server": "workspace:*",
-    "@maimai/decorators": "workspace:*"
+    "@maimai/server": "workspace:*"
   },
   "devDependencies": {
     "typescript": "^5.0.0",

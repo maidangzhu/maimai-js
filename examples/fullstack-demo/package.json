@@ -17,7 +17,6 @@
     "@maimai/core": "workspace:*",
     "@maimai/server": "workspace:*",
     "@maimai/client": "workspace:*",
-    "@maimai/decorators": "workspace:*",
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
   },

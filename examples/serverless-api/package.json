@@ -13,7 +13,6 @@
   "dependencies": {
     "@maimai/core": "workspace:*",
     "@maimai/server": "workspace:*",
-    "@maimai/decorators": "workspace:*",
     "@maimai/plugins": "workspace:*"
   },
   "devDependencies": {

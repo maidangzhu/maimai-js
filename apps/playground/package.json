@@ -13,7 +13,6 @@
     "@maimai/core": "workspace:*",
     "@maimai/server": "workspace:*",
     "@maimai/client": "workspace:*",
-    "@maimai/decorators": "workspace:*",
     "@maimai/plugins": "workspace:*",
     "@maimai/types": "workspace:*",
     "@maimai/utils": "workspace:*"
